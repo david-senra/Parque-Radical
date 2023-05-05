@@ -1,0 +1,135 @@
+
+body {
+    background-color: rgb(206, 4, 4);;
+}
+
+header {
+    width: 100%;
+    font-family: 'Permanent Marker', cursive;
+    background-image: url("./images/confetti.jpg");
+}
+
+header h1 {
+    font-size: 5em;
+    background-color: transparent;
+    color: #fff;
+}
+
+.container {
+    padding: 50px 0;
+}
+
+.carousel-item {
+    margin-top: 15px;
+    height: 340px;
+    transition-duration: 1.5s;
+}
+
+.carousel-item {
+    background-position: center center;
+    background-size: cover;
+}
+
+#carousel-img-1 {
+    background-image: url(/images/Park-1.jpg);
+}
+
+#carousel-img-2 {
+    background-image: url(/images/Park-2.jpg);
+}
+
+#carousel-img-3 {
+    background-image: url(/images/Park-3.jpg);
+}
+
+#carousel-img-4 {
+    background-image: url(/images/Park-4.jpg);
+}
+
+.conteudo h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2.5em;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.card {
+    display: flex;
+    justify-content: baseline;
+}
+
+.card.carta {
+    margin-bottom: 20px;
+}
+
+.card-img-overlay {
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 8px;
+}
+
+.card-img-overlay a {
+    text-align: center;
+    font-size: 0.8em;
+    padding-top: 3px;
+}
+
+.card-img-overlay .card-text {
+    display: none;
+    padding-bottom: 0;
+}
+
+.card-img-overlay #link {
+    display: none;
+}
+
+.card-img-overlay a {
+    display: none;
+}
+
+.card:hover .card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.card:hover .card-text {
+    display: block;
+}
+
+.card:hover #link {
+    display: block;
+}
+
+.card:hover a {
+    display: grid;
+}
+
+footer {
+    width: 100%;
+    background-image: url("./images/confetti.jpg");
+    padding-bottom: 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.2em;
+    background-color: transparent;
+    color: #fff;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-bottom: 0;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+
