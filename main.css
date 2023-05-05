@@ -123,6 +123,49 @@ footer p {
     margin-bottom: 0;
 }
 
+@media screen and (max-width: 760px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .container {
+        padding: 50px 0;
+    }
+
+    .conteudo {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    header {
+        font-size: smaller;
+    }
+
+    #carousel-inner {
+        max-width: 660px;
+    }
+
+    .conteudo h1 {
+        font-size: 2em;
+    }
+
+    .card.carta {
+        margin-bottom: 50px;
+    }
+
+    footer p {
+        font-size: 0.8em;
+        padding-bottom: 25px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
 .noselect {
     -webkit-touch-callout: none; /* iOS Safari */
       -webkit-user-select: none; /* Safari */
@@ -132,4 +175,5 @@ footer p {
               user-select: none; /* Non-prefixed version, currently
                                     supported by Chrome, Edge, Opera and Firefox */
 }
+
 
